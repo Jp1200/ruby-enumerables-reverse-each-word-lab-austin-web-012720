@@ -4,7 +4,7 @@ words = string.split(' ')
 rev_word = []
 
 rev_word << words.each{|i|  i.reverse }
-return words.join(' ').squeeze('')
+return rev_word.join(' ').squeeze('')
 
 
 end
