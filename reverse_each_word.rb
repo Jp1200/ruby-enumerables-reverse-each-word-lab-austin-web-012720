@@ -4,7 +4,7 @@ words = string.split(' ')
 rev_string = ""
 
 words.each{|i| i = i.reverse) }
-return words.join(' ')
+return words.join(' ').squeeze(' ')
 
 
 end
