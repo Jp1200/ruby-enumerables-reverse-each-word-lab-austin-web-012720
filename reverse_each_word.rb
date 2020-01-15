@@ -1,8 +1,9 @@
 def reverse_each_word(string)
 
-a = string.split(' ') 
-
-return a.each{|i| puts i.reverse }
+words = string.split(' ') 
+stringy = ""
+return stringy
+a.each{|i| puts i.reverse }
 
 
 
