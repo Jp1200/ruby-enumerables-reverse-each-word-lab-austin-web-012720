@@ -1,7 +1,7 @@
 def reverse_each_word(string)
 
 words = string.split(' ') 
-stringy = ""
+string2 = ""
 
 stringy << words.each{|i| i.reverse }
 return stringy
