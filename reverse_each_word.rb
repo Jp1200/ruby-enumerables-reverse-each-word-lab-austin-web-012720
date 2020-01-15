@@ -3,7 +3,7 @@ def reverse_each_word(string)
 words = string.split(' ') 
 rev_word = []
 
-rev_word << words.each{|i|  i.reverse }
+words.each{|i|  i.reverse }
 return rev_word.join(' ').squeeze('')
 
 
