@@ -8,4 +8,3 @@ return rev_word.join(' ').squeeze('')
 
 
 end
-def 
