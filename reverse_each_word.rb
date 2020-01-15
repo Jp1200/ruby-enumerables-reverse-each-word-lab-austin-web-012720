@@ -4,7 +4,7 @@ words = string.split(' ')
 string2 = ""
 
 string2 << words.each{|i| i.reverse }
-return stringy
+return string2
 
 
 end
